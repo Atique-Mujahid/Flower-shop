@@ -18,7 +18,22 @@ p {
   border: none;
   color: #fff;
 }
-header {
+.section_heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+.section_heading h3 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+header , #hot_deal {
   background-color: rgba(229, 84, 115, 0.1);
 }
 .container {
@@ -40,7 +55,114 @@ header {
   font-size: 60px;
   font-weight: 800;
 }
-.banner .banner-img img{
-     width: 100%;
-     vertical-align: middle;
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+#featured {
+  padding: 100px 0;
+}
+.section_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+.section_content .flower .flower_img {
+  border-radius: 300px 300px 0 0;
+  height: 400px;
+  padding: 30px 25px 0;
+  display: flex;
+  align-items: end;
+}
+.section_content .flower .flower_img img {
+  width: 100%;
+}
+.pink .flower_img{
+  background: rgba(167, 33, 98, 0.15);
+}
+.blue .flower_img{
+  background: rgba(5, 151, 160, 0.15);
+}
+.pith .flower_img{
+  background: rgba(71, 125, 17, 0.15);
+}
+.section_content .flower p{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+margin-top: 20px;
+}
+#featured_section{
+  padding-bottom: 50px;
+}
+.gretings_secton{
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  padding: 50px 30px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.gretings_secton .greatings .greatings_img{
+  text-align: center;
+}
+.gretings_secton .greatings_img > img{
+  width: 50px;
+}
+.gretings_secton  p{
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hot_deal_text{
+  text-align: center;
+  max-width: 50%;
+}
+.hot_deal_text h2{
+  color: #272727;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.hot_deal_text span{
+  color: #E55473;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.hot_deal_text p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 20px 0;
+}
+.hot_deal_img img{
+width: 200px;
+}
+.hot_deal_button {
+  color: #FFF;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+background: #E55473;
 }
