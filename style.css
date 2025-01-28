@@ -5,7 +5,7 @@
   font-family: "Lato", serif;
 }
 p {
-  color: rgba(39, 39, 39, 0.6);
+  color: rgb(179 179 179 / 60%);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -119,6 +119,9 @@ header,
   font-size: 15px;
   font-weight: 600;
 }
+section#hot_deal {
+  padding: 50px 0;
+}
 .flex {
   display: flex;
   justify-content: space-evenly;
@@ -166,4 +169,72 @@ header,
   line-height: normal;
   border-radius: 8px;
   background: #e55473;
+}
+.social_image {
+  justify-content: space-around !important;
+  gap: 20px;
+}
+.social_image .social_flower_img img {
+  width: 200px;
+}
+#newsletter {
+  margin: 128px 0;
+}
+.newsletter_main {
+  background-image: url("./images/Rectangle\ 9.png");
+  padding: 100px 0;
+}
+.newsletter_main form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+.newsletter_main form input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 30px;
+}
+#final_part {
+  background: #111010;
+  padding: 30px 0;
+}
+#final_part .final_text {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#final_part .final_text .color {
+  color: #fff;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#final_part .final_discription {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 590px;
+  padding: 15px 0px;
+  margin: 0 auto;
+}
+#final_part > p {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
